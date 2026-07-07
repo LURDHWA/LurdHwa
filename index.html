@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>در حال طراحی</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111;
+    overflow:hidden;
+    font-family:tahoma,sans-serif;
+}
+
+.text{
+    font-size:55px;
+    font-weight:bold;
+    color:#00BFFF;
+    text-shadow:
+        0 0 10px #00BFFF,
+        0 0 20px #00BFFF,
+        0 0 40px #00BFFF;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        transform:scale(1);
+        opacity:.7;
+    }
+    to{
+        transform:scale(1.08);
+        opacity:1;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="text">🚧 در حال طراحی 🚧</div>
+
+</body>
+</html>
